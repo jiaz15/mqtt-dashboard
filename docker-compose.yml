@@ -1,0 +1,35 @@
+version: '3'
+
+services:
+  mosquitto1:
+    image: eclipse-mosquitto:2
+    container_name: mosquitto1
+    ports:
+      - "1883:1883"
+      - "9001:9001"
+    volumes:
+      - ./mosquitto1/config:/mosquitto/config
+      - ./mosquitto1/data:/mosquitto/data
+      - ./mosquitto1/log:/mosquitto/log
+
+  mosquitto2:
+    image: eclipse-mosquitto:2
+    container_name: mosquitto2
+    ports:
+      - "1884:1883"
+      - "9002:9001"
+    volumes:
+      - ./mosquitto2/config:/mosquitto/config
+      - ./mosquitto2/data:/mosquitto/data
+      - ./mosquitto2/log:/mosquitto/log
+
+  mosquitto3:
+    image: eclipse-mosquitto:2
+    container_name: mosquitto3
+    ports:
+      - "1885:1883"
+      - "9003:9001"
+    volumes:
+      - ./mosquitto3/config:/mosquitto/config
+      - ./mosquitto3/data:/mosquitto/data
+      - ./mosquitto3/log:/mosquitto/log
