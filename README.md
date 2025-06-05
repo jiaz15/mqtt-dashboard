@@ -3,5 +3,5 @@
 2. 运行程序前设置环境变量：
    ```bash
    export MQTT_BROKER_URL=ws://172.24.70.40:9001
-   export MQTT_USERNAME=team_projectA
-   export MQTT_PASSWORD=your_password
+   export MQTT_USERNAME=team_mqtt_user
+   export MQTT_PASSWORD=123456
