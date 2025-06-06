@@ -2,7 +2,7 @@ import org.eclipse.paho.client.mqttv3.*;
 
 public class MqttTemperatureSubscriber {
 
-    private static final String BROKER = "tcp://broker.emqx.io:1883";
+    private static final String BROKER = "ws://10.241.70.225:9001";
     private static final String TOPIC = "test/telemetry";
     private static final String CLIENT_ID = "JavaSubscriber_" + System.currentTimeMillis();
 
