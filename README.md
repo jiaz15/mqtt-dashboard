@@ -24,8 +24,8 @@ Despite the remote deployment issue of the broker by Member D, the team ensured 
 
 
 #### **Member E: Testing Framework & Process Assurance**  
-- Created basic test cases and configured CI/CD pipelines, ensuring 100% pass rate for automated tests.  
-- Led functional and stress testing: covered 90% of core use cases with Cypress, verified message latency <500ms with Locust, and pushed for fixes like the MQTT reconnection strategy.  
+Main functional testing and stress testing: Use Cypress to cover 90% of core test cases, verify message latency < 500ms with Locust, and drive the resolution of issues such as MQTT reconnection strategies.
+Report topic content writing: Responsible for organizing the core technical documents of the project, and writing the course report (CW-Report) based on the development results of each module, covering chapters such as MQTT connection logic, data visualization solution, and test conclusions;
 
 
 #### **Collaboration Highlights**  
