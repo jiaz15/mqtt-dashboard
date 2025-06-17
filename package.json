@@ -1,16 +1,15 @@
 {
-  "dependencies": {
-    "mqtt": "^5.13.1"
-  },
-  "name": "mqtt_simulator",
+  "name": "node-js",
   "version": "1.0.0",
-  "main": "simulator.js",
-  "devDependencies": {},
+  "main": "hello.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "mqtt": "^5.13.1"
+  }
 }
